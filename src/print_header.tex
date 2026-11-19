@@ -1,0 +1,27 @@
+% Typesetting settings for the PDF export of the Markdown source.
+\usepackage{xeCJK}
+\setCJKmainfont{Noto Serif CJK SC}
+\setCJKsansfont{Noto Sans CJK SC}
+\setCJKmonofont{Noto Sans Mono CJK SC}
+\usepackage{indentfirst}
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage{microtype}
+\usepackage{needspace}
+\usepackage{caption}
+\captionsetup[figure]{labelformat=empty,font=small,justification=raggedright,singlelinecheck=false}
+\usepackage{titlesec}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0.40em}
+\linespread{1.22}
+\setlength{\headheight}{17pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize 概率论与数理统计 X · 大作业}
+\fancyhead[R]{\footnotesize 2026 年秋}
+\fancyfoot[C]{\footnotesize \thepage}
+\renewcommand{\headrulewidth}{0.25pt}
+\titlespacing*{\section}{0pt}{1.2em}{0.55em}
+\titlespacing*{\subsection}{0pt}{1.0em}{0.4em}
+\titlespacing*{\subsubsection}{0pt}{0.75em}{0.28em}
+\setcounter{secnumdepth}{0}

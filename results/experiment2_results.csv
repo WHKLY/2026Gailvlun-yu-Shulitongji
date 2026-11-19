@@ -1,0 +1,16 @@
+metric,value
+n_A,5
+n_B,5
+mean_A,89.6
+mean_B,88
+sample_var_A,4.3
+sample_var_B,5.5
+mean_A_ci95_lower,87.0252307321
+mean_A_ci95_upper,92.1747692679
+variance_ratio_A_over_B,0.781818181818
+variance_ratio_ci95_lower,0.0814009838276
+variance_ratio_ci95_upper,7.50899609169
+t_statistic_muA_eq_90,-0.431331092814
+t_df,4
+t_pvalue_two_sided,0.688457089776
+alpha,0.05

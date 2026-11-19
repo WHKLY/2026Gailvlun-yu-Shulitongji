@@ -1,0 +1,6 @@
+PASS: original BIN SHA-256 matches extraction metadata
+PASS: 48 authentic sensor records, 23 south + 25 north; every screening condition met
+PASS: descriptive statistics and 48 ordered observations cross-checked
+PASS: Student-t confidence interval, F confidence interval, and t-test cross-checked
+PASS: manuscript, base-R source, and all 5 delivered figure PNGs exist
+NOTE: R was not executed; calculations were independently verified in SciPy.

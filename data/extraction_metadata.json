@@ -1,0 +1,60 @@
+{
+  "source": "00000172(1).BIN",
+  "sha256": "9497f3ae1f2d9fe0adc4e4afd66c21164ad035276e58bd0d2e6bb9eb87659eba",
+  "file_bytes": 7667712,
+  "packet_count": 180748,
+  "packet_types": 72,
+  "trailing_partial_bytes": 37,
+  "message_counts": {
+    "ARSP": 1557,
+    "GPS": 779,
+    "ATT": 3894,
+    "POS": 3893,
+    "CMD": 15,
+    "MISE": 14,
+    "MODE": 5,
+    "STAT": 783
+  },
+  "source_intervals": [
+    {
+      "segment_id": "S",
+      "segment_label": "WP3-WP4 (south)",
+      "start_s": 665.594784,
+      "end_s": 667.896016,
+      "bearing_deg": 177.18686253863805
+    },
+    {
+      "segment_id": "N",
+      "segment_label": "WP7-WP9 (north)",
+      "start_s": 681.895734,
+      "end_s": 684.394731,
+      "bearing_deg": 358.78309941949306
+    }
+  ],
+  "selection_thresholds": {
+    "sensor_instance": 0,
+    "H": 1,
+    "U": 1,
+    "gps_status_min": 3,
+    "course_abs_error_max_deg": 20,
+    "roll_abs_max_deg": 18,
+    "home_relative_alt_m": [
+      23,
+      27
+    ],
+    "gps_vz_abs_max_mps": 2.2,
+    "POS_ATT_nearest_tolerance_s": 0.12,
+    "GPS_nearest_tolerance_s": 0.15
+  },
+  "candidate_count": 48,
+  "selected_count": 48,
+  "selected_by_segment": {
+    "N": 25,
+    "S": 23
+  },
+  "notes": [
+    "MISE marks the start of executing a waypoint, not the instant of arrival.",
+    "ARSP is a high-frequency time series; sample count is not the count of independent flights.",
+    "Leg geometry is computed from CMD waypoint coordinates, not ground-track distance."
+  ]
+}

@@ -1,0 +1,12 @@
+metric,value
+sample_n,48
+mean_mps,16.2301076052
+median_mps,16.11753464
+sample_variance_mps2,1.09433323065
+sample_sd_mps,1.04610383359
+min_mps,13.32279491
+q1_mps,15.81534815
+q3_mps,16.724822525
+max_mps,18.8379631
+coefficient_of_variation,0.0644545223626
+iqr_mps,0.909474375

@@ -1,0 +1,56 @@
+{
+  "experiment1": {
+    "sample_n": 48,
+    "mean_mps": 16.23010760520833,
+    "median_mps": 16.117534640000002,
+    "sample_variance_mps2": 1.0943332306476372,
+    "sample_sd_mps": 1.0461038335880608,
+    "min_mps": 13.32279491,
+    "q1_mps": 15.81534815,
+    "q3_mps": 16.724822525,
+    "max_mps": 18.8379631,
+    "coefficient_of_variation": 0.06445452236264658,
+    "iqr_mps": 0.9094743750000003
+  },
+  "experiment2": {
+    "n_A": 5,
+    "n_B": 5,
+    "mean_A": 89.6,
+    "mean_B": 88.0,
+    "sample_var_A": 4.3,
+    "sample_var_B": 5.5,
+    "mean_A_ci95_lower": 87.02523073207092,
+    "mean_A_ci95_upper": 92.17476926792907,
+    "variance_ratio_A_over_B": 0.7818181818181817,
+    "variance_ratio_ci95_lower": 0.0814009838276162,
+    "variance_ratio_ci95_upper": 7.50899609169242,
+    "t_statistic_muA_eq_90": -0.4313310928137598,
+    "t_df": 4,
+    "t_pvalue_two_sided": 0.6884570897760001,
+    "alpha": 0.05
+  },
+  "segment_info": [
+    {
+      "segment_id": "N",
+      "n": 25,
+      "mean_mps": 16.1575245276,
+      "median_mps": 16.14250565,
+      "sample_sd_mps": 1.105382369362914,
+      "min_mps": 13.32279491,
+      "max_mps": 18.8379631,
+      "lag1_autocorrelation": 0.6579128256692416
+    },
+    {
+      "segment_id": "S",
+      "n": 23,
+      "mean_mps": 16.309002254782605,
+      "median_mps": 16.09256363,
+      "sample_sd_mps": 0.9962180637011279,
+      "min_mps": 14.49392509,
+      "max_mps": 18.75322342,
+      "lag1_autocorrelation": 0.8237651872330854
+    }
+  ],
+  "R_execution": "not performed; R unavailable in authoring environment",
+  "verification": "SciPy/NumPy using same estimator and observations as included base-R source"
+}
